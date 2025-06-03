@@ -1,7 +1,8 @@
 {
-  "name": "organizer-app",
+  "name": "alltagsapp-pro",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://selinar0708.github.io/alltagsapp-pro",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -9,6 +10,12 @@
     "react-calendar": "^4.0.0"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }

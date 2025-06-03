@@ -1,4 +1,3 @@
-// Organizer App UI – Version mit interaktivem Kalender
 import { useState } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
@@ -43,7 +42,6 @@ export default function OrganizerApp() {
         📝 <span className="text-black">AlltagsApp Pro</span>
       </h1>
 
-      {/* To-Do Section */}
       <div className="mb-6">
         <h2 className="text-lg font-semibold text-left">To-Do</h2>
         <div className="flex gap-2 mt-2">
@@ -65,7 +63,6 @@ export default function OrganizerApp() {
         </ul>
       </div>
 
-      {/* Calendar Section */}
       <div className="mb-6">
         <h2 className="text-lg font-semibold text-left">📅 Kalender</h2>
         <div className="flex flex-col items-center mt-2">
@@ -89,7 +86,6 @@ export default function OrganizerApp() {
         </div>
       </div>
 
-      {/* Meal Prep Section */}
       <div>
         <h2 className="text-lg font-semibold text-left">🥗 Meal Prep</h2>
         <div className="flex gap-2 mt-2">
