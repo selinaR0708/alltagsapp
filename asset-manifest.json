@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/alltagsapp-pro/static/css/main.0ddf4a38.css",
+    "main.js": "/alltagsapp-pro/static/js/main.c3769fc4.js",
+    "index.html": "/alltagsapp-pro/index.html",
+    "main.0ddf4a38.css.map": "/alltagsapp-pro/static/css/main.0ddf4a38.css.map",
+    "main.c3769fc4.js.map": "/alltagsapp-pro/static/js/main.c3769fc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ddf4a38.css",
+    "static/js/main.c3769fc4.js"
+  ]
+}
